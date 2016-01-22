@@ -117,17 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Activities_Counselling_Children1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Activities-Counselling-Children1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="counting_20numbers_jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\counting-20numbers-jpg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_069568_blue_jelly_icon_alphanumeric_minus_sign_simple" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\069568-blue-jelly-icon-alphanumeric-minus-sign-simple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_069598_blue_jelly_icon_alphanumeric_plus_sign" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\069598-blue-jelly-icon-alphanumeric-plus-sign.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

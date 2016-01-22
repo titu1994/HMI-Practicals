@@ -8,20 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace HMI_1
+namespace HMI_1.Forms
 {
-    public partial class Form1 : Form
+    public partial class AdditionForm : Form
     {
-        public Form1()
+        public AdditionForm()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Select s = new Select();
-            s.Show();
-            this.Hide();
         }
     }
 }

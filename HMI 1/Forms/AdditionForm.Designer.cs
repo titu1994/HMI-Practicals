@@ -1,6 +1,6 @@
-﻿namespace HMI_1
+﻿namespace HMI_1.Forms
 {
-    partial class CountingForm
+    partial class AdditionForm
     {
         /// <summary>
         /// Required designer variable.
@@ -30,14 +30,15 @@
         {
             this.SuspendLayout();
             // 
-            // CountingForm
+            // AdditionForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(784, 461);
-            this.Name = "CountingForm";
+            this.Name = "AdditionForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "CountingForm";
+            this.Text = "AdditionForm";
             this.ResumeLayout(false);
 
         }
