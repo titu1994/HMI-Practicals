@@ -117,9 +117,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\069568-blue-jelly-icon-alphanumeric-minus-sign-simple.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\069598-blue-jelly-icon-alphanumeric-plus-sign.png" />
   </ItemGroup>
   <ItemGroup>
@@ -193,6 +190,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\picturebox1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\069568-blue-jelly-icon-alphanumeric-minus-sign-simple.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

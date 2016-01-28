@@ -52,6 +52,7 @@
             this.result1 = new System.Windows.Forms.PictureBox();
             this.result2 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.subtractionBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.result1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.result2)).BeginInit();
             this.SuspendLayout();
@@ -331,15 +332,21 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.BackgroundImage = global::HMI_1.Properties.Resources._069568_blue_jelly_icon_alphanumeric_minus_sign_simple;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Location = new System.Drawing.Point(314, 76);
+            this.button1.Location = new System.Drawing.Point(0, 0);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(152, 110);
-            this.button1.TabIndex = 39;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 0;
+            // 
+            // subtractionBtn
+            // 
+            this.subtractionBtn.BackColor = System.Drawing.Color.White;
+            this.subtractionBtn.BackgroundImage = global::HMI_1.Properties.Resources._069568_blue_jelly_icon_alphanumeric_minus_sign_simple;
+            this.subtractionBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.subtractionBtn.Location = new System.Drawing.Point(327, 95);
+            this.subtractionBtn.Name = "subtractionBtn";
+            this.subtractionBtn.Size = new System.Drawing.Size(124, 71);
+            this.subtractionBtn.TabIndex = 39;
+            this.subtractionBtn.UseVisualStyleBackColor = false;
             // 
             // SubtractionForm
             // 
@@ -347,6 +354,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SpringGreen;
             this.ClientSize = new System.Drawing.Size(784, 461);
+            this.Controls.Add(this.subtractionBtn);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.result2);
             this.Controls.Add(this.result1);
@@ -406,5 +414,6 @@
         private System.Windows.Forms.PictureBox result1;
         private System.Windows.Forms.PictureBox result2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button subtractionBtn;
     }
 }
