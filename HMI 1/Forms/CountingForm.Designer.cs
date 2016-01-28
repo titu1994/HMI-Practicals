@@ -232,7 +232,7 @@
 
         #endregion
 
-        private  System.Windows.Forms.Button row11;
+        private System.Windows.Forms.Button row11;
         private System.Windows.Forms.Button row12;
         private System.Windows.Forms.Button row13;
         private System.Windows.Forms.Button row14;
@@ -241,7 +241,7 @@
         private System.Windows.Forms.Button row17;
         private System.Windows.Forms.Button row18;
         private System.Windows.Forms.Button row19;
-        private  System.Windows.Forms.Button row10;
+        private System.Windows.Forms.Button row10;
         private System.Windows.Forms.Button countButton;
         private System.Windows.Forms.Button resultBtn;
         private System.Windows.Forms.Button BackBtn;
