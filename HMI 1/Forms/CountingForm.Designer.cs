@@ -165,7 +165,7 @@
             // 
             // resultBtn
             // 
-            this.resultBtn.BackColor = System.Drawing.Color.White;
+            this.resultBtn.BackColor = System.Drawing.Color.SpringGreen;
             this.resultBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.resultBtn.Enabled = false;
             this.resultBtn.FlatAppearance.BorderSize = 0;
@@ -179,13 +179,13 @@
             // 
             // BackBtn
             // 
-            this.BackBtn.BackColor = System.Drawing.Color.White;
+            this.BackBtn.BackColor = System.Drawing.Color.SpringGreen;
             this.BackBtn.BackgroundImage = global::HMI_1.Properties.Resources.previous_arrow_512;
             this.BackBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.BackBtn.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.BackBtn.FlatAppearance.BorderSize = 0;
             this.BackBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BackBtn.Location = new System.Drawing.Point(13, 276);
+            this.BackBtn.Location = new System.Drawing.Point(-1, 365);
             this.BackBtn.Name = "BackBtn";
             this.BackBtn.Size = new System.Drawing.Size(114, 97);
             this.BackBtn.TabIndex = 13;
@@ -208,7 +208,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.SpringGreen;
             this.ClientSize = new System.Drawing.Size(784, 461);
             this.Controls.Add(this.BackBtn);
             this.Controls.Add(this.resultBtn);
