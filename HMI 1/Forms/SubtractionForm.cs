@@ -39,6 +39,28 @@ namespace HMI_1.Forms
             // Load the images each time it is shown.
             this.Shown += OnShown;
         }
+
+        private void subtractionBtn_Click(object sender, EventArgs e)
+        {
+            result1.Visible = true;
+            result2.Visible = true;
+            
+            bool neg = totalCount < 0 ? true : false;
+
+            result1.BackgroundImage = imgHelper.GetSignImage(neg);
+
+            if (neg)
+            {
+                result2.BackgroundImage = imgHelper.GetNumberImage(-totalCount);
+            }
+            else
+            {
+                result2.BackgroundImage = imgHelper.GetNumberImage(totalCount);
+            }
+        
+            
+        }
+
         private void OnShown(object sender, EventArgs eventArgs)
         {
             // Load the images.
@@ -69,15 +91,6 @@ namespace HMI_1.Forms
             this.Hide();
         }
 
-        private void countButton_Click(object sender, EventArgs e)
-        {
-            result1.Visible = true;
-            result2.Visible = true;
-
-            int t1 = totalCount / 10, t2 = totalCount % 10;
-
-            result1.BackgroundImage = imgHelper.GetNumberImage(t1);
-            result2.BackgroundImage = imgHelper.GetNumberImage(t2);
-        }
+        
     }
 }

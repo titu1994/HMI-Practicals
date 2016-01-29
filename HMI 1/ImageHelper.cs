@@ -51,5 +51,17 @@ namespace HMI_1
         {
             return NumberIds[number];
         }
+
+        public Bitmap GetSignImage(bool neg)
+        {
+            if (neg)
+            {
+                return HMI_1.Properties.Resources._069568_blue_jelly_icon_alphanumeric_minus_sign_simple;
+            }
+            else
+            {
+                return HMI_1.Properties.Resources._069598_blue_jelly_icon_alphanumeric_plus_sign;
+            }
+        }
     }
 }
