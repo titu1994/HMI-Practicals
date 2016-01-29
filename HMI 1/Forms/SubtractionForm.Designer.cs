@@ -51,7 +51,6 @@
             this.row21 = new System.Windows.Forms.Button();
             this.result1 = new System.Windows.Forms.PictureBox();
             this.result2 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.subtractionBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.result1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.result2)).BeginInit();
@@ -59,14 +58,14 @@
             // 
             // BackBtn
             // 
-            this.BackBtn.BackColor = System.Drawing.Color.SpringGreen;
+            this.BackBtn.BackColor = System.Drawing.Color.LightSkyBlue;
             this.BackBtn.BackgroundImage = global::HMI_1.Properties.Resources.previous_arrow_512;
             this.BackBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.BackBtn.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.BackBtn.FlatAppearance.BorderSize = 0;
             this.BackBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BackBtn.Location = new System.Drawing.Point(1, 449);
-            this.BackBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BackBtn.Margin = new System.Windows.Forms.Padding(4);
             this.BackBtn.Name = "BackBtn";
             this.BackBtn.Size = new System.Drawing.Size(152, 119);
             this.BackBtn.TabIndex = 14;
@@ -79,7 +78,7 @@
             this.row10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.row10.Enabled = false;
             this.row10.Location = new System.Drawing.Point(8, 15);
-            this.row10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.row10.Margin = new System.Windows.Forms.Padding(4);
             this.row10.Name = "row10";
             this.row10.Size = new System.Drawing.Size(95, 71);
             this.row10.TabIndex = 24;
@@ -92,7 +91,7 @@
             this.row19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.row19.Enabled = false;
             this.row19.Location = new System.Drawing.Point(932, 16);
-            this.row19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.row19.Margin = new System.Windows.Forms.Padding(4);
             this.row19.Name = "row19";
             this.row19.Size = new System.Drawing.Size(95, 71);
             this.row19.TabIndex = 23;
@@ -105,7 +104,7 @@
             this.row18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.row18.Enabled = false;
             this.row18.Location = new System.Drawing.Point(829, 15);
-            this.row18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.row18.Margin = new System.Windows.Forms.Padding(4);
             this.row18.Name = "row18";
             this.row18.Size = new System.Drawing.Size(95, 71);
             this.row18.TabIndex = 22;
@@ -118,7 +117,7 @@
             this.row17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.row17.Enabled = false;
             this.row17.Location = new System.Drawing.Point(727, 15);
-            this.row17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.row17.Margin = new System.Windows.Forms.Padding(4);
             this.row17.Name = "row17";
             this.row17.Size = new System.Drawing.Size(95, 71);
             this.row17.TabIndex = 21;
@@ -131,7 +130,7 @@
             this.row16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.row16.Enabled = false;
             this.row16.Location = new System.Drawing.Point(624, 15);
-            this.row16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.row16.Margin = new System.Windows.Forms.Padding(4);
             this.row16.Name = "row16";
             this.row16.Size = new System.Drawing.Size(95, 71);
             this.row16.TabIndex = 20;
@@ -144,7 +143,7 @@
             this.row15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.row15.Enabled = false;
             this.row15.Location = new System.Drawing.Point(521, 15);
-            this.row15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.row15.Margin = new System.Windows.Forms.Padding(4);
             this.row15.Name = "row15";
             this.row15.Size = new System.Drawing.Size(95, 71);
             this.row15.TabIndex = 19;
@@ -157,7 +156,7 @@
             this.row14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.row14.Enabled = false;
             this.row14.Location = new System.Drawing.Point(419, 15);
-            this.row14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.row14.Margin = new System.Windows.Forms.Padding(4);
             this.row14.Name = "row14";
             this.row14.Size = new System.Drawing.Size(95, 71);
             this.row14.TabIndex = 18;
@@ -170,7 +169,7 @@
             this.row13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.row13.Enabled = false;
             this.row13.Location = new System.Drawing.Point(316, 15);
-            this.row13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.row13.Margin = new System.Windows.Forms.Padding(4);
             this.row13.Name = "row13";
             this.row13.Size = new System.Drawing.Size(95, 71);
             this.row13.TabIndex = 17;
@@ -183,7 +182,7 @@
             this.row12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.row12.Enabled = false;
             this.row12.Location = new System.Drawing.Point(213, 15);
-            this.row12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.row12.Margin = new System.Windows.Forms.Padding(4);
             this.row12.Name = "row12";
             this.row12.Size = new System.Drawing.Size(95, 71);
             this.row12.TabIndex = 16;
@@ -196,7 +195,7 @@
             this.row11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.row11.Enabled = false;
             this.row11.Location = new System.Drawing.Point(111, 15);
-            this.row11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.row11.Margin = new System.Windows.Forms.Padding(4);
             this.row11.Name = "row11";
             this.row11.Size = new System.Drawing.Size(95, 71);
             this.row11.TabIndex = 15;
@@ -209,7 +208,7 @@
             this.row20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.row20.Enabled = false;
             this.row20.Location = new System.Drawing.Point(8, 236);
-            this.row20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.row20.Margin = new System.Windows.Forms.Padding(4);
             this.row20.Name = "row20";
             this.row20.Size = new System.Drawing.Size(95, 71);
             this.row20.TabIndex = 35;
@@ -222,7 +221,7 @@
             this.row29.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.row29.Enabled = false;
             this.row29.Location = new System.Drawing.Point(932, 238);
-            this.row29.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.row29.Margin = new System.Windows.Forms.Padding(4);
             this.row29.Name = "row29";
             this.row29.Size = new System.Drawing.Size(95, 71);
             this.row29.TabIndex = 34;
@@ -235,7 +234,7 @@
             this.row28.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.row28.Enabled = false;
             this.row28.Location = new System.Drawing.Point(829, 236);
-            this.row28.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.row28.Margin = new System.Windows.Forms.Padding(4);
             this.row28.Name = "row28";
             this.row28.Size = new System.Drawing.Size(95, 71);
             this.row28.TabIndex = 33;
@@ -248,7 +247,7 @@
             this.row27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.row27.Enabled = false;
             this.row27.Location = new System.Drawing.Point(727, 236);
-            this.row27.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.row27.Margin = new System.Windows.Forms.Padding(4);
             this.row27.Name = "row27";
             this.row27.Size = new System.Drawing.Size(95, 71);
             this.row27.TabIndex = 32;
@@ -261,7 +260,7 @@
             this.row26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.row26.Enabled = false;
             this.row26.Location = new System.Drawing.Point(624, 236);
-            this.row26.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.row26.Margin = new System.Windows.Forms.Padding(4);
             this.row26.Name = "row26";
             this.row26.Size = new System.Drawing.Size(95, 71);
             this.row26.TabIndex = 31;
@@ -274,7 +273,7 @@
             this.row25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.row25.Enabled = false;
             this.row25.Location = new System.Drawing.Point(521, 236);
-            this.row25.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.row25.Margin = new System.Windows.Forms.Padding(4);
             this.row25.Name = "row25";
             this.row25.Size = new System.Drawing.Size(95, 71);
             this.row25.TabIndex = 30;
@@ -287,7 +286,7 @@
             this.row24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.row24.Enabled = false;
             this.row24.Location = new System.Drawing.Point(419, 236);
-            this.row24.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.row24.Margin = new System.Windows.Forms.Padding(4);
             this.row24.Name = "row24";
             this.row24.Size = new System.Drawing.Size(95, 71);
             this.row24.TabIndex = 29;
@@ -300,7 +299,7 @@
             this.row23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.row23.Enabled = false;
             this.row23.Location = new System.Drawing.Point(316, 236);
-            this.row23.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.row23.Margin = new System.Windows.Forms.Padding(4);
             this.row23.Name = "row23";
             this.row23.Size = new System.Drawing.Size(95, 71);
             this.row23.TabIndex = 28;
@@ -313,7 +312,7 @@
             this.row22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.row22.Enabled = false;
             this.row22.Location = new System.Drawing.Point(213, 236);
-            this.row22.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.row22.Margin = new System.Windows.Forms.Padding(4);
             this.row22.Name = "row22";
             this.row22.Size = new System.Drawing.Size(95, 71);
             this.row22.TabIndex = 27;
@@ -326,7 +325,7 @@
             this.row21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.row21.Enabled = false;
             this.row21.Location = new System.Drawing.Point(111, 236);
-            this.row21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.row21.Margin = new System.Windows.Forms.Padding(4);
             this.row21.Name = "row21";
             this.row21.Size = new System.Drawing.Size(95, 71);
             this.row21.TabIndex = 26;
@@ -335,9 +334,9 @@
             // 
             // result1
             // 
-            this.result1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.result1.Location = new System.Drawing.Point(380, 348);
-            this.result1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.result1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.result1.Location = new System.Drawing.Point(390, 348);
+            this.result1.Margin = new System.Windows.Forms.Padding(4);
             this.result1.Name = "result1";
             this.result1.Size = new System.Drawing.Size(133, 154);
             this.result1.TabIndex = 37;
@@ -345,21 +344,13 @@
             // 
             // result2
             // 
-            this.result2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.result2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.result2.Location = new System.Drawing.Point(521, 348);
-            this.result2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.result2.Margin = new System.Windows.Forms.Padding(4);
             this.result2.Name = "result2";
             this.result2.Size = new System.Drawing.Size(133, 154);
             this.result2.TabIndex = 38;
             this.result2.TabStop = false;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(0, 0);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 28);
-            this.button1.TabIndex = 0;
             // 
             // subtractionBtn
             // 
@@ -367,7 +358,7 @@
             this.subtractionBtn.BackgroundImage = global::HMI_1.Properties.Resources._069568_blue_jelly_icon_alphanumeric_minus_sign_simple;
             this.subtractionBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.subtractionBtn.Location = new System.Drawing.Point(436, 117);
-            this.subtractionBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.subtractionBtn.Margin = new System.Windows.Forms.Padding(4);
             this.subtractionBtn.Name = "subtractionBtn";
             this.subtractionBtn.Size = new System.Drawing.Size(165, 87);
             this.subtractionBtn.TabIndex = 39;
@@ -378,10 +369,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.SpringGreen;
+            this.BackColor = System.Drawing.Color.LightSkyBlue;
             this.ClientSize = new System.Drawing.Size(1045, 567);
             this.Controls.Add(this.subtractionBtn);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.result2);
             this.Controls.Add(this.result1);
             this.Controls.Add(this.row20);
@@ -405,7 +395,7 @@
             this.Controls.Add(this.row12);
             this.Controls.Add(this.row11);
             this.Controls.Add(this.BackBtn);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "SubtractionForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SubtractionForm";
@@ -440,7 +430,6 @@
         private System.Windows.Forms.Button row21;
         private System.Windows.Forms.PictureBox result1;
         private System.Windows.Forms.PictureBox result2;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button subtractionBtn;
     }
 }

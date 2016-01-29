@@ -41,9 +41,10 @@
             this.ExitBtn.BackColor = System.Drawing.Color.DarkOrange;
             this.ExitBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ExitBtn.ForeColor = System.Drawing.Color.White;
-            this.ExitBtn.Location = new System.Drawing.Point(267, 359);
+            this.ExitBtn.Location = new System.Drawing.Point(356, 442);
+            this.ExitBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ExitBtn.Name = "ExitBtn";
-            this.ExitBtn.Size = new System.Drawing.Size(205, 55);
+            this.ExitBtn.Size = new System.Drawing.Size(273, 68);
             this.ExitBtn.TabIndex = 3;
             this.ExitBtn.Text = "EXIT";
             this.ExitBtn.UseVisualStyleBackColor = false;
@@ -56,9 +57,10 @@
             this.SubtractionBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.SubtractionBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SubtractionBtn.ForeColor = System.Drawing.Color.White;
-            this.SubtractionBtn.Location = new System.Drawing.Point(490, 99);
+            this.SubtractionBtn.Location = new System.Drawing.Point(653, 122);
+            this.SubtractionBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.SubtractionBtn.Name = "SubtractionBtn";
-            this.SubtractionBtn.Size = new System.Drawing.Size(205, 163);
+            this.SubtractionBtn.Size = new System.Drawing.Size(273, 201);
             this.SubtractionBtn.TabIndex = 2;
             this.SubtractionBtn.UseVisualStyleBackColor = false;
             this.SubtractionBtn.Click += new System.EventHandler(this.SubtractionBtn_Click);
@@ -70,9 +72,10 @@
             this.AdditionBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.AdditionBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdditionBtn.ForeColor = System.Drawing.Color.White;
-            this.AdditionBtn.Location = new System.Drawing.Point(267, 99);
+            this.AdditionBtn.Location = new System.Drawing.Point(356, 122);
+            this.AdditionBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.AdditionBtn.Name = "AdditionBtn";
-            this.AdditionBtn.Size = new System.Drawing.Size(205, 163);
+            this.AdditionBtn.Size = new System.Drawing.Size(273, 201);
             this.AdditionBtn.TabIndex = 1;
             this.AdditionBtn.UseVisualStyleBackColor = false;
             this.AdditionBtn.Click += new System.EventHandler(this.AdditionBtn_Click);
@@ -84,9 +87,10 @@
             this.CountingBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CountingBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CountingBtn.ForeColor = System.Drawing.Color.White;
-            this.CountingBtn.Location = new System.Drawing.Point(53, 99);
+            this.CountingBtn.Location = new System.Drawing.Point(71, 122);
+            this.CountingBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CountingBtn.Name = "CountingBtn";
-            this.CountingBtn.Size = new System.Drawing.Size(205, 163);
+            this.CountingBtn.Size = new System.Drawing.Size(273, 201);
             this.CountingBtn.TabIndex = 0;
             this.CountingBtn.UseVisualStyleBackColor = false;
             this.CountingBtn.Click += new System.EventHandler(this.CountingBtn_Click);
@@ -96,23 +100,25 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Navy;
-            this.label1.Location = new System.Drawing.Point(275, 36);
+            this.label1.Location = new System.Drawing.Point(367, 44);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(181, 26);
+            this.label1.Size = new System.Drawing.Size(222, 31);
             this.label1.TabIndex = 4;
             this.label1.Text = "Select a Program";
             // 
             // SelectForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.SpringGreen;
-            this.ClientSize = new System.Drawing.Size(784, 461);
+            this.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.ClientSize = new System.Drawing.Size(1045, 567);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.ExitBtn);
             this.Controls.Add(this.SubtractionBtn);
             this.Controls.Add(this.AdditionBtn);
             this.Controls.Add(this.CountingBtn);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "SelectForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Select";

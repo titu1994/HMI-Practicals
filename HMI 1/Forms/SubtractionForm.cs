@@ -45,7 +45,7 @@ namespace HMI_1.Forms
             result1.Visible = true;
             result2.Visible = true;
             
-            bool neg = totalCount < 0 ? true : false;
+            bool neg = totalCount < 0;
 
             result1.BackgroundImage = imgHelper.GetSignImage(neg);
 
