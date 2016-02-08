@@ -1,12 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Linq;
+using System.Threading;
 using System.Windows.Forms;
 
 namespace toh
 {
     public partial class GameForm : Form
     {
+        private PictureBox _base;
+        private List<Pole> poles = GameState.Poles;
         public GameForm()
         {
             InitializeComponent();
@@ -15,6 +19,33 @@ namespace toh
         private void Form2_Load(object sender, EventArgs e)
         {
             RestartGame();
+            HideGameBox();
+        }
+
+        private void HideGameBox()
+        {
+            _base.Hide();
+            foreach (Pole pole in GameState.Poles)
+            {
+                pole.Hide();
+                foreach (Disk disk in pole.Disks.Values)
+                {
+                    disk.Hide();
+                }
+            }
+        }
+
+        private void ShowGameBox()
+        {
+            _base.Show();
+            foreach (Pole pole in GameState.Poles)
+            {
+                pole.Show();
+                foreach (Disk disk in pole.Disks.Values)
+                {
+                    disk.Show();
+                }
+            }
         }
 
         void thisBox_DragOver(object sender, DragEventArgs e)
@@ -116,12 +147,13 @@ namespace toh
             hints.Visible = true;
             hints.Text = string.Empty;
             hints.Text = Properties.Resources.HintCaption;
+            int movesLength = moves.Count();
             foreach (Move move in moves)
             {
                 hints.Text += move.ToString();
                 MakeMove(move);
                 Application.DoEvents();
-                System.Threading.Thread.Sleep(1000);
+                Thread.Sleep(20000/(movesLength+1));
             }
             this.Enabled = true;
         }
@@ -156,7 +188,8 @@ namespace toh
 
         private void AddComponents()
         {
-            PictureBox _base = new PictureBox();
+            if(_base == null)
+            _base = new PictureBox();
             _base.Image = toh.Properties.Resources._base;
             _base.Size = toh.Properties.Resources._base.Size;
             _base.BackColor = SystemColors.ControlDarkDark;
@@ -199,6 +232,64 @@ namespace toh
         private void textBox1_MouseClick(object sender, MouseEventArgs e)
         {
             usernameTextbox.Text = "";
+        }
+
+        private void helpBtn_Click(object sender, EventArgs e)
+        {
+            RestartGame();
+            SolveGame();
+        }
+
+        private void restartBtn_Click(object sender, EventArgs e)
+        {
+            RestartGame();
+        }
+
+        private void HideControls(int diskNo)
+        {
+            ShowGameBox();
+            RestartGame(diskNo);
+            label1.Hide();
+            startBtn3.Hide();
+            startBtn4.Hide();
+            startBtn5.Hide();
+            startBtn6.Hide();
+            helpBtn.Show();
+            restartBtn.Show();
+            button1.Show();
+        }
+
+        private void startBtn_Click(object sender, EventArgs e)
+        {
+            HideControls(3);
+        }
+
+        private void startBtn4_Click(object sender, EventArgs e)
+        {
+            HideControls(4);
+        }
+
+        private void startBtn5_Click(object sender, EventArgs e)
+        {
+            HideControls(5);
+        }
+
+        private void startButton6_Click(object sender, EventArgs e)
+        {
+            HideControls(6);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            HideGameBox();
+            label1.Show();
+            startBtn3.Show();
+            startBtn4.Show();
+            startBtn5.Show();
+            startBtn6.Show();
+            helpBtn.Hide();
+            restartBtn.Hide();
+            button1.Hide();
         }
     }
 }
